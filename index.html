@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Landing Page Siman</title>
+</head>
+<body>
+    <header>
+
+      
+      <nav class="navbar navbar-expand-lg" style="background-color: rgb(168, 51, 56);">
+        <div class="container-fluid">
+
+          <!-- Logo a la izquierda -->
+          <a class="navbar-brand" href="#">
+            <img src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/0320199c-a291-4a04-a9ea-bb7f602709ce___6ed5888c44f710335956b213e47c7feb.svg " alt="Logo" class="img-fluid col-8 col-md-3 col-lg-6">
+          </a>
+
+          <!-- Botón de hamburguesa para móviles -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Enlaces centrados -->
+          <div class="collapse navbar-collapse container text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 justify-content-center">
+              <li class="nav-item px-3">
+                  <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                  <a class="nav-link active text-light" aria-current="page" href="./login.html">Log in</a>
+              </li>
+          </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ingresa producto" aria-label="Search">
+              <button class="btn btn btn-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <main class="container">
+
+       <!-- Carrusel -->
+        <section class="carrusel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746242811/4b75fe16-61e9-479e-aab6-c6a4507075b6___f74003b391074f9dd57bf26e7749eea3_ktsclg.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746242836/6f7001d1-128c-4ab1-9ff2-ef547329f4e7___56264598fd216ab761a9d18d8c3f5a6c_bghk5d.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746242869/edbb22e2-846d-451b-b37d-32501461c426___fb25026bf1b5ef77dd67f1fc017c4de9_ezmqmh.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
+          <!-- Fin de carrusel -->
+
+          <!-- Categorías -->
+          <section class="content_categ">
+            <ul class="list-inline categoria">
+              <li class="list-inline-item col-6 col-sm-3 col-md-3">
+                <a href="./maquillaje.html">
+                  <img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746328377/makeup-pouch_4_id3oec.png" alt="Makeup"> <br>
+                </a>
+                <p>Maquillaje</p>
+              </li>
+              <li class="list-inline-item col-6 col-sm-3 col-md-3">
+                <a href="./ropadama.html">
+                  <img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746327666/fashion_1_wwopgv.png" alt="Ropa">
+                </a>
+                <p>Ropa de Dama</p>
+              </li>
+              <li class="list-inline-item col-6 col-sm-3 col-md-3">
+                <a href="./joyeria.html">
+                  <img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746382613/treasure_rhaan3.png" alt="Joyas">
+                </a>
+                <p>Joyería</p>
+              </li>
+            </ul>
+          </section>
+          <!-- Fin de categorias -->
+
+          <!-- Afiche de descuento para categorias -->
+          <section class="d-lg-flex justify-content-around container">
+            <section class="row">
+              <!-- Descuentos para mamá: Main Image -->
+                <section class="col-sm-7 pt-1 container-fluid">
+                  <img class="imgmain_Promomama" src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746381893/c2a4f4c3-6924-49a0-b96a-6ffbcc1c6bab___3895b56b43e434a48c203b4260a339cb_w8pfjf.webp" alt="">
+                </section>
+
+              <!-- Descuentos para mamá: Segunda columna -->
+                <section class="col-sm-5">
+                  <section class="row">
+                      <section class="col-12 col-sm-6 p-1 container-fluid">
+                        <img class="imgsecond_jelwery1"  src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746382908/486592546_29934905359429933_6575093095378010063_n_bi8glk.jpg" alt="">
+                      </section>
+
+                      <section class="col-12 col-sm-6 p-1 container-fluid ">
+                        <img class="imgsecond_jelwery1" src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746390776/OIP_pkhsqb_c_crop_w_445_h_593_ar_3_4_xipcyo.jpg" alt="">
+                      </section>
+                  </section>
+
+                  <section class="row">
+                    <section class="col-12 col-sm-12 p-1">
+                      <img class="imgsecond_jelwery2" src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746381922/ddff99bf-1e57-4d85-b586-6a7c2eba4950___26443af677889e12fe1ddadf1c37221e_fk0io6.webp" alt="">
+                    </section>
+                  </section>
+                </section>
+            </section>
+          </section>
+          <!-- Fin de Afiche de descuento para categorias -->
+    </main>
+
+    <footer>
+      <section class="container text-center">
+        <section class="row justify-content-center">
+          <!-- Columna Suscribete -->
+            <section class="col-sm-4">
+              <section class="row align-items-center">
+
+                <!-- Logo footer siman -->
+                <section class="col-sm-12">
+                  <img class="logosiman_footer" src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746409469/LOGO-SIMAN_xdm6rn.png" alt="">
+                </section>
+
+                <section class="col-12 col-sm-12">
+                  <p>Suscríbete para obtener las mejores ofertas</p>
+                </section>
+                
+                <!-- Form subcripción -->
+                <form class="row mb-3 col-sm-10 g-3" action="" method="post">
+                  <section class="col-12 col-sm-11">
+                    <input type="email" class="form-control" id="colFormLabel" name="email" placeholder="e-mail" required>
+                    <div class="invalid-feedback">
+                      Por favor ingresa un correo válido.
+                    </div>
+                  </section>
+                  <section class="col-12 col-sm-1">
+                    <button class="btn btn-dark" type="submit">Suscribirme</button>
+                  </section>
+                </form>
+                
+
+                <!-- Telefono -->
+                <section class="row justify-content-center my-3">
+                  <section class="col-1 col-sm-1">
+                    <img class="icon_phone" src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746453903/telephone_dgxniz.png" alt="">
+                  </section>
+                  <section class="col-4 col-sm-3">
+                    <p>2298-3777</p>
+                  </section>
+                </section>
+
+                <section class="col-12 col-sm-12">
+                  <p>Mantente en contacto con nosotros</p>
+                </section>
+
+                <!-- Redes sociales -->
+                <section class="row justify-content-center mb-3">
+                  <section class="col-1 col-sm-1">
+                    <a href="https://www.facebook.com/simanelsalvador"><img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746457363/facebook_a83xul.png" alt="Facebook" /></a>
+                  </section>
+                  <section class="col-1 col-sm-1">
+                    <a href="https://www.instagram.com/almacenessiman_sv/"><img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746457363/instagram_yk6h4d.png" alt="Instagram" /></a>
+                  </section>
+                  <section class="col-1 col-sm-1">
+                    <a href="https://www.youtube.com/@SimanElSalvador"><img src="https://res.cloudinary.com/djn6tkvvl/image/upload/v1746457363/youtube_hcrbmv.png" alt="Youtube" /></a>
+                  </section>
+                </section>
+              </section>
+            </section>
+        </section>
+      </section>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>  
+</body>
+</html>

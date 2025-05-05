@@ -1,0 +1,6 @@
+{
+    "editor.stickyTabStops": true,
+    "editor.tabCompletion": "on",
+    "editor.tabFocusMode": true,
+    "workbench.editor.highlightModifiedTabs": true
+}

@@ -1,0 +1,89 @@
+.carrusel{
+    margin-top: 1rem;
+    /*border-bottom: solid 1px #000;*/
+}
+
+
+.logo-siman{
+    max-height:max-content;
+    width: 300px;
+}
+
+/*Barra de categorias*/
+.categoria{
+    text-align: center;
+    margin: 1rem;
+    padding: 40px;
+    color: rgb(170, 61, 61);
+}
+
+.content_categ{
+    background-color:rgb(240, 240, 240);
+}
+
+/*Imagenes Form Maquillaje*/
+
+.img_maquillaje{
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.img_joyas{
+    width: 70%;
+    height: 50%;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.img_ropadama{
+    width: 80%;
+    height: 65%;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+/*Imagenes de afiche con ofertas*/
+.imgmain_Promomama{
+    width: 100%;
+    height: 95%;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.imgsecond_jelwery1{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.imgsecond_jelwery2{
+    width: 100%;
+    height: 101%;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+/*Footer*/
+footer{
+background-color: rgb(228, 228, 228);
+}
+
+.logosiman_footer{
+    width: 70%;
+    height: 10%;
+    margin: 40px;
+}
+
+.icon_phone{
+    width: 17px;
+    height: 17px;
+} 
+
+.content_phone{
+    margin-left: 30%;
+}
+
+
