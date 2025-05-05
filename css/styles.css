@@ -3,6 +3,18 @@
     /*border-bottom: solid 1px #000;*/
 }
 
+body{
+    font-family:'Outfit', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Cal Sans', sans-serif;
+  }
+
+h4{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300; /* muy delgado */
+}
 
 .logo-siman{
     max-height:max-content;
